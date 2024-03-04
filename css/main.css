@@ -330,7 +330,7 @@ body {
   justify-content: center;
 }
 .modal__form-about {
-  background-image: url(./img/form-img.png);
+  background-image: url(../img/form-img.png);
   background-size: cover;
   max-width: 457px;
   width: 100%;

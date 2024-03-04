@@ -1,0 +1,11 @@
+<svg width="19.000000" height="19.000000" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs/>
+	<path id="Vector" d="M4.84277 10.335L9.49997 14.9922L14.1572 10.335" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.300000" stroke-linecap="square"/>
+	<mask id="mask1_247" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="0.000092" width="18.999908" height="18.999908">
+		<path id="Vector" d="M0 9.15527e-05L18.9999 9.15527e-05L18.9999 19L0 19L0 9.15527e-05Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</mask>
+	<g mask="url(#mask1_247)">
+		<path id="Vector" d="M9.5 14.3242L9.5 0.742249" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.300000" stroke-linejoin="round" stroke-linecap="square"/>
+		<path id="Vector" d="M0 18.2578L18.9999 18.2578" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.300000"/>
+	</g>
+</svg>

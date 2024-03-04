@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>THE RITZ-CARLTON RESIDENGES</title>
+</head>
+
+
+<body>
+    <header class="header">
+    <nav class="header__nav">
+        <div class="header__nav-content">
+            <a href="#" class="header__nav-content-logo">
+                <img src="../img/logo.svg" alt="LOGO">
+            </a>
+            <div class="header__nav-content-contacts">
+                <div class="header__nav-content-contacts-links">
+                    <a href="#"><img src="../img/telegram.svg" alt="telegram"></a>
+                    <a href="#"><img src="../img/whatsapp.svg
+                        " alt="whatsapp"></a>
+                </div>
+                <div class="header__nav-content-contacts-phone">
+                    <a href="tel:+99899 xxx xx xx">+99899 xxx xx xx</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+    <main class="main">
+    <button class="btn p1" id="p1">
+        <span class="white">P1</span>
+        <span class="black">Park</span>
+    </button>
+    <button class="btn m1" id="m1">
+        <span class="white">M2</span>
+        <span class="black">Apartments</span>
+    </button>
+    <button class="btn m2" id="m2">
+        <span class="white">M3</span>
+        <span class="black">Mansions</span>
+    </button>
+    <button class="btn p2" id="p2">
+        <span class="white">P2</span>
+        <span class="black">Road</span>
+    </button>
+</main>
+    <footer class="footer">
+    <a href="#" id="showModalForm" class="modalBtn">Download brochure <span><img src="../img/arrow.svg"
+                alt="modal"></span></a>
+</footer>
+    <div class="modal" id="modalForm">
+    <div class="modal__form">
+        <div class="modal__form-about">
+            <div class="modal__form-about-descr">
+                <h3>don't miss
+                    the unique offer</h3>
+                <p>Be the first to experience the beauty of Keturah Resort at our exclusive private screening event!
+                    Leave
+                    your
+                    contact information below to receive an invitation to our special event.</p>
+            </div>
+            <div class="modal__form-about-links">
+                <div class="modal__form-about-links-link"><img src="../img/telegram.svg" alt="telgram">Telegram</div>
+                <div class="modal__form-about-links-link"><img src="../img/whatsapp.svg" alt="whatssap"> WhatsApp</div>
+            </div>
+        </div>
+        <div class="modal__form-join">
+            <input type="text" placeholder="Your name">
+            <input type="mail" placeholder="Your e-mail">
+            <input type="text" placeholder="Phone number">
+            <button class="modal__form-join-submit">Join now</button>
+            <div class="modal__form-join-close" id="closeModalForm"></div>
+        </div>
+    </div>
+</div>
+    <div class="viewer" id="viewerModal">
+    <div class="viewer__window" id="viewer"><span class="close" id="closeViewer"></span></div>
+
+</div>
+    <h1 style="display: none;">THE RITZ-CARLTON RESIDENGES</h1>
+    <script src="js/index.bundle.js"></script>
+</body>
+
+</html>
